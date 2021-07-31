@@ -121,6 +121,15 @@ align-items: center;
 .contact{
     padding-left: 35px;
 }
+/**responsivness******************/
+@media screen and (max-width:520px){
+    .navbar >ul{
+     flex-direction:column;
+    }
+    .navbar >ul >li{
+      margin-top:20px
+    }
+  }
 @media screen  and (max-width:950px){
     .contact-section{
         flex-direction: column;
