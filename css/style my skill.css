@@ -139,6 +139,15 @@ width: 35px;
     width: 50px;
     z-index: 2;
 }
+/*responsivness***************/
+@media screen and (max-width:520px){
+    .navbar >ul{
+     flex-direction:column;
+    }
+    .navbar >ul >li{
+      margin-top:20px
+    }
+  }
 @media screen and (max-width:990px){
     .container{
         grid-template-columns: repeat(2, 1fr);
