@@ -34,7 +34,7 @@ body{
   margin: 0;
   padding: 0;
   background:url('img/pexels-negative-space-160107.jpg') no-repeat center/cover;
- background-size:cover;
+  background-size:cover;
 }
 .box{
   width: 450px;
@@ -74,11 +74,18 @@ ul{
   list-style: none;
 }
 /*Responsivness//////////////////////////*/
+@media screen and (max-width:520px){
+  .navbar >ul{
+   flex-direction:column;
+  }
+  .navbar >ul >li{
+    margin-top:20px
+  }
+}
 @media screen and (max-width:490px){
    .box{
      width:290px;
     }
-    .navbar>ul{
-      flex-direction:column;
-    }
+    
+    
 }
